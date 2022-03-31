@@ -1,0 +1,121 @@
+body {
+  font-family: "Inter";
+}
+/* Title */
+#title {
+  background-color: #ff4c68;
+  color: white;
+  position: relative;
+}
+
+.container-fluid {
+  padding: 3% 15% 10%;
+}
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: "Bakbak One" cursive;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.navbar-nav {
+  padding: 1rem;
+}
+.nav-link {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-family: "Bakbak One", cursive;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+.title-img {
+  max-width: 55%;
+  transform: rotate(30deg);
+  position: absolute;
+  right: 30%;
+}
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Features */
+#features {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: white;
+  position: relative;
+}
+h3 {
+  font-weight: bold;
+}
+.icon {
+  color: #f46767;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #ff4c68;
+  color: white;
+}
+h2 {
+  font-weight: bold;
+}
+.testimonial-image {
+  max-width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+.carousel-item {
+  padding: 5rem;
+}
+
+/* press */
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 2%;
+}
+.press-image {
+  max-width: 12%;
+  margin: 20px 20px 50px;
+}
+
+/* cta */
+#cta {
+  background-color: #ffffff;
+  text-align: center;
+  padding-top: 50px;
+}
+.ctn-btn {
+  text-align: center;
+}
+.social-icons {
+  margin: 0 10px;
+}
+#footer {
+  background-color: #ffffff;
+  padding: 1%;
+  text-align: center;
+}
